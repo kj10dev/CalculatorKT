@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
     app:startDestination="@id/additionFragment">
 
     <fragment
         android:id="@+id/additionFragment"
         android:name="com.example.calculator.ui.AdditionFragment"
-        android:label="AdditionFragment" />
+        android:label="Addition"
+        tools:layout="@layout/fragment_addition"/>
+
+    <fragment
+        android:id="@+id/divisionFragment"
+        android:name="com.example.calculator.ui.DivisionFragment"
+        android:label="Division"
+        tools:layout="@layout/fragment_division" />
+
+    <fragment
+        android:id="@+id/multiplicationFragment"
+        android:name="com.example.calculator.ui.MultiplicationFragment"
+        android:label="Multiplication"
+        tools:layout="@layout/fragment_multiplication"/>
+
+    <fragment
+        android:id="@+id/subtractionFragment"
+        android:name="com.example.calculator.ui.SubtractionFragment"
+        android:label="Subtraction"
+        tools:layout="@layout/fragment_subtraction"/>
 </navigation>

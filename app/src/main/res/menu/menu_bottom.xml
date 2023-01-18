@@ -9,6 +9,16 @@
     <item
         android:id="@+id/subtractionFragment"
         android:title="Minus"
-        android:icon="@android:drawable/ic_menu_view"/>
+        android:icon="@drawable/minus"/>
+
+    <item
+        android:id="@+id/multiplicationFragment"
+        android:title="Multiply"
+        android:icon="@drawable/close"/>
+
+    <item
+        android:id="@+id/divisionFragment"
+        android:title="Divide"
+        android:icon="@drawable/divide"/>
 
 </menu>

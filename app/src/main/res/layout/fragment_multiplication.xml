@@ -6,7 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:gravity="center_horizontal"
-    tools:context=".SubtractionFragment">
+    tools:context=".MultiplicationFragment">
 
     <androidx.cardview.widget.CardView
         app:cardCornerRadius="10dp"
@@ -63,12 +63,12 @@
 
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab_Minus"
+        android:id="@+id/fab_Multiply"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:clickable="true"
-        android:src="@drawable/minus" />
+        android:src="@drawable/close" />
 
     <TextView
         android:id="@+id/answer"
