@@ -38,6 +38,7 @@ class AdditionFragment : Fragment() {
             ).toString()
 
         }
+
         return view
     }
 
